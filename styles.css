@@ -1,12 +1,20 @@
 
+@media (max-width: 675px) {
+    p.saying-name{
+        font-size: 1.8rem;
+    }
+    h3{
+        font-size: 1.8rem;
+    }
+} 
 
 body{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
     color: #333;
     margin: 0;   
-    font-size: 1.2rem;
+    font-size: 1.9rem;
     line-height: 1.6;
-    min-width: 466px;
+    min-width: 642px;
 }
 main{
     background-color: #eee;
@@ -37,14 +45,30 @@ figcaption{
     margin: 10px;
     padding: 5px;
 }
-#tribute-info{
-    max-width: 700px;
+h2, h3{
+    
     text-align: center;
+    margin: 50px auto;
+}
+#tribute-info{
+    margin: 0;
+    padding: 5px 0;
 }
 #year-list{
-    display: inline-block;
+    line-height: 3.2rem;
+} 
+ul{
+    max-width: 650px;
+    margin: auto;
     text-align: left;
 }
-/* <div id="tribute-info">
-            <h2>Here's a time line of Dr. Borlaug's life:</h2>
-            <ul id="year-list">*/
+#saying{
+    max-width: 650px;
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+}
+.saying-name{
+    font-size: 1.9rem;
+    text-align: center;
+}
